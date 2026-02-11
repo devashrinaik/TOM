@@ -1,0 +1,22 @@
+# Core dependencies
+torch>=2.0.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Vision
+torchvision>=0.15.0
+einops>=0.6.0
+Pillow>=9.0.0
+
+# Development
+tqdm>=4.60.0
+matplotlib>=3.5.0
+
+# Optional: Mamba SSM (requires CUDA)
+# pip install mamba-ssm causal-conv1d>=1.4.0
+
+# Optional: BOCPD
+# pip install bayesian-changepoint-detection
+
+# Optional: VLA integration
+# transformers>=4.30.0
